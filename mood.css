@@ -1,0 +1,271 @@
+body{
+	background:url(images/bc.png) repeat fixed  left;
+  font-size:16px;
+  font-family: "Century Gothic", "Lucida Grande", Helvetica, Arial, 微軟正黑體, 微软雅黑;
+}
+img{
+  border:none;
+}
+*{
+	margin:0;
+	padding:0;
+}
+#title{
+	margin:120px auto 0;
+	width:450px;
+	height:30px;
+	text-align:center;
+}
+#login{
+	margin:40px auto;
+	padding:20px;
+	background-color:white;
+	width:450px;
+	height:220px;
+	border-radius:10px;
+}
+#top{
+	text-align:center;
+	margin:0 auto 10px;
+	line-height:14px;
+	font-size:22px;
+}
+#user{
+	width:240px;
+	margin:0 auto;
+}
+#user a{
+	font-size:13px;
+	color:#4B97E3;
+}
+#user a:visted{
+	color:#4B97E3;
+}
+#lg-un{
+	margin-bottom:5px;
+}
+#lg-pw{
+	margin-bottom:5px;
+}	
+.text{
+	margin-right:10px;
+	*position:relative;
+	*bottom:15px;
+}
+.input{
+	border:1px solid #ccc;
+	border-radius:5px;
+	font-size:15px;
+	margin:10px 0;
+	width:180px;
+	height:25px;
+	display:inline;
+	-webkit-transition: width .5s linear;
+	-moz-transition: width .5s linear;
+	transition: width .5s linear;
+}
+.input:focus  {
+	outline:2px solid #6FA1D9;
+}
+#but{
+	width:250px;
+	margin:10px auto;
+}
+.button{
+	background:url(images/bd-split.gif);
+	color:white;
+	width:90px;
+	height:30px;
+	border-radius:8px;
+	cursor:pointer;
+}
+.button:hover{
+	background-position:-240px 0;
+}
+#result{
+	font-size:13px;
+	color:red;
+}
+#man_title{
+  width:888px;
+  height:50px;
+  margin:25px auto;
+  text-align:center;
+  background:#4B97E3;
+  line-height:50px;
+}
+#man_panel{
+  width:888px;
+  height:500px;
+  background:white;
+  margin:25px auto; 
+}
+#block_left{
+  width:222px;
+  float:left;
+  background:#F8F8F8;
+  height:100%;             
+}
+#block_right{
+  width:640px;
+  float:right;
+  background:#F8F8F8;
+  height:100%;             
+}
+.bk_btn{
+  width:200px;
+  height:50px;
+  background:#4B97E3;
+  margin:10px 0 0 10px;
+  font-size:16px;         
+  border-radius:5px;
+  line-height:50px;
+  text-align:center;
+}
+.bk_btn:hover {
+  cursor:pointer;
+}
+#mocon{
+  width: 555px;
+  height: 222px;
+  font-family: "Lucida Grande", "Century Gothic", Helvetica, Arial, 微軟正黑體, 微软雅黑;
+  font-size:30px;
+  color: #666;
+  border: 3px solid #4B97E3;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  margin:20px 0 0 40px;
+}
+#moplace{
+  width:555px;
+  height:30px;
+  font-family: "Lucida Grande", "Century Gothic", Helvetica, Arial, 微軟正黑體, 微软雅黑;
+  color: #666;
+  border: 3px solid #4B97E3;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  margin:10px 0 0 40px;
+}
+.btn{
+  width:555px;
+  font-family: "Lucida Grande", "Century Gothic", Helvetica, Arial, 微軟正黑體, 微软雅黑;
+  margin:15px 0 0 40px;
+  height:33px;
+  background:#4B97E3;
+  cursor:pointer;             
+  border-radius:4px;         
+}
+#man_rel{
+  width:555px;
+  height:33px;
+  color:red;
+  margin:10px 0 0 40px;
+  text-align:center;
+}
+#man_set{
+  width:555px;
+  height:33px;
+  margin:10px 0 0 40px;
+}
+#dx_header{
+  width:666px;
+  height:80px;
+  margin: 20px auto;             
+}
+#head_left{
+  float:left;
+  width:222px;
+  height:100%;
+  font-size:25px;        
+  padding:10px 0 0 10px;
+}
+#head_right{
+  float:right;
+  width:300px;
+  height:100%;
+  padding: 10px 0 0 10px;
+}
+#head_right a {
+  background-image: url("images/dh.png");
+  width: 60px;
+  height: 32px;
+  display:block;
+  padding:14px 0;
+  float:left;
+  margin-left:10px;
+}
+.nav1{
+  background-position: 0 0;
+}
+.nav2{
+  background-position: -60px 0;
+}
+.nav3{
+  background-position: -120px 0;
+}
+.nav4{
+  background-position: -180px 0;
+}
+#itemlist{
+  width:622px;
+  margin:0 auto;
+}
+.block_item{
+  margin-bottom:30px;
+  padding:12px 8px 40px 8px;
+  border-radius:5px;
+  border:1px solid #CCC;
+}
+.block_more{
+  border:1px solid #CCC;
+  border-radius:5px;
+  padding:5px 0 5px 0;
+  margin-bottom:30px;
+}
+.con_more{
+  text-align:center;
+}
+.con_more a{
+  color:#52AEDE;
+}
+.qb{
+  line-height: 99;
+  height: 29px;
+  width: 32px;
+  display: block;
+  overflow: hidden;
+  float: left;
+  background: url("images/qb.png") no-repeat;
+}
+.qa{
+  font-size: 0;
+  line-height: 99;
+  height: 29px;
+  width: 32px;
+  display: block;
+  overflow: hidden;
+  float: right;
+  background: url("images/qa.png") no-repeat;
+}
+.itemcon{
+  font-size:22px;
+  clear:both;
+  font-weight:bold;
+  padding:0px 0 5px 30px;
+}
+.itemmeta{
+  clear:both;
+  font-size:13px;
+  float:left;
+  padding-left:30px;
+  color:#999;
+  display:block;
+  width:521px;
+  overflow:hidden;
+  height:32px;
+}
+.item_del{
+  color:#999;
+}
