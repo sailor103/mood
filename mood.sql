@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: localhost
--- 生成日期: 2012 年 12 月 06 日 12:06
+-- 生成日期: 2012 年 12 月 06 日 12:10
 -- 服务器版本: 5.5.16
 -- PHP 版本: 5.3.8
 
@@ -116,7 +116,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 --
 
 INSERT INTO `user` (`username`, `userpass`) VALUES
-('sailor', 'd956ed3ccde5f35386eccd66126cc883');
+('admin', '21232f297a57a5a743894a0e4a801fc3');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
