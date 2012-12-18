@@ -85,7 +85,7 @@ $nex=$page+1;
 	/**
 	 * 删除一条心情
 	 */
-	$(".item_del").click(function(){
+	$(".item_del").live("click",function(){
 	  var v_mid=$(this).attr("id");
     var tem_this=$(this);
     $.ajax({
@@ -116,7 +116,7 @@ $nex=$page+1;
     <a id="hd_home" href="index.php" class="nav1" title="返回首页"></a>
     <a id="hd_lab" href="http://lab.yqc.im" target="_blank" class="nav2" title="实验室"></a>
     <a id="hd_blog" href="http://blog.yqc.im" target="_blank" class="nav3" title="博客"></a>
-    <a id="hd_about" href="http://about.yqc.im" target="_blank" class="nav4" title="关于我"></a>
+    <a id="hd_about" href="http://yqc.im" target="_blank" class="nav4" title="关于我"></a>
   </div>
 </div>
 <div id="itemlist">
